@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8D20ECD16EAB20C003CC3DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D20ECC16EAB20C003CC3DE /* UIKit.framework */; };
+		E8D20ECF16EAB20C003CC3DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D20ECE16EAB20C003CC3DE /* Foundation.framework */; };
+		E8D20ED116EAB20C003CC3DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D20ED016EAB20C003CC3DE /* CoreGraphics.framework */; };
+		E8D20ED716EAB20C003CC3DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D20ED516EAB20C003CC3DE /* InfoPlist.strings */; };
+		E8D20ED916EAB20C003CC3DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D20ED816EAB20C003CC3DE /* main.m */; };
+		E8D20EDD16EAB20C003CC3DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D20EDC16EAB20C003CC3DE /* AppDelegate.m */; };
+		E8D20EDF16EAB20C003CC3DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EDE16EAB20C003CC3DE /* Default.png */; };
+		E8D20EE116EAB20C003CC3DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EE016EAB20C003CC3DE /* Default@2x.png */; };
+		E8D20EE316EAB20C003CC3DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EE216EAB20C003CC3DE /* Default-568h@2x.png */; };
+		E8D20EE616EAB20C003CC3DE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EE416EAB20C003CC3DE /* MainStoryboard.storyboard */; };
+		E8D20EF116EAB3FD003CC3DE /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D20EF016EAB3FD003CC3DE /* CatalogViewController.m */; };
+		E8D20EF616EABA2E003CC3DE /* F430_Scuderia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EF316EABA2E003CC3DE /* F430_Scuderia.jpg */; };
+		E8D20EF716EABA2E003CC3DE /* F458_Italia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EF416EABA2E003CC3DE /* F458_Italia.jpg */; };
+		E8D20EF816EABA2E003CC3DE /* LaFerrari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8D20EF516EABA2E003CC3DE /* LaFerrari.jpg */; };
+		E8D20EFB16EABBFF003CC3DE /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D20EFA16EABBFF003CC3DE /* DetailsViewController.m */; };
+		E8D20EFE16EABE34003CC3DE /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D20EFD16EABE34003CC3DE /* Car.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8D20EC916EAB20C003CC3DE /* CarCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D20ECC16EAB20C003CC3DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8D20ECE16EAB20C003CC3DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8D20ED016EAB20C003CC3DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8D20ED416EAB20C003CC3DE /* CarCatalog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarCatalog-Info.plist"; sourceTree = "<group>"; };
+		E8D20ED616EAB20C003CC3DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8D20ED816EAB20C003CC3DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D20EDA16EAB20C003CC3DE /* CarCatalog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarCatalog-Prefix.pch"; sourceTree = "<group>"; };
+		E8D20EDB16EAB20C003CC3DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8D20EDC16EAB20C003CC3DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8D20EDE16EAB20C003CC3DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E8D20EE016EAB20C003CC3DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E8D20EE216EAB20C003CC3DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E8D20EE516EAB20C003CC3DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E8D20EEF16EAB3FD003CC3DE /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		E8D20EF016EAB3FD003CC3DE /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
+		E8D20EF316EABA2E003CC3DE /* F430_Scuderia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = F430_Scuderia.jpg; path = Images/F430_Scuderia.jpg; sourceTree = "<group>"; };
+		E8D20EF416EABA2E003CC3DE /* F458_Italia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = F458_Italia.jpg; path = Images/F458_Italia.jpg; sourceTree = "<group>"; };
+		E8D20EF516EABA2E003CC3DE /* LaFerrari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LaFerrari.jpg; path = Images/LaFerrari.jpg; sourceTree = "<group>"; };
+		E8D20EF916EABBFF003CC3DE /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		E8D20EFA16EABBFF003CC3DE /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		E8D20EFC16EABE34003CC3DE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		E8D20EFD16EABE34003CC3DE /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D20EC616EAB20C003CC3DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D20ECD16EAB20C003CC3DE /* UIKit.framework in Frameworks */,
+				E8D20ECF16EAB20C003CC3DE /* Foundation.framework in Frameworks */,
+				E8D20ED116EAB20C003CC3DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8D20EC016EAB20C003CC3DE = {
+			isa = PBXGroup;
+			children = (
+				E8D20ED216EAB20C003CC3DE /* CarCatalog */,
+				E8D20ECB16EAB20C003CC3DE /* Frameworks */,
+				E8D20ECA16EAB20C003CC3DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D20ECA16EAB20C003CC3DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D20EC916EAB20C003CC3DE /* CarCatalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D20ECB16EAB20C003CC3DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D20ECC16EAB20C003CC3DE /* UIKit.framework */,
+				E8D20ECE16EAB20C003CC3DE /* Foundation.framework */,
+				E8D20ED016EAB20C003CC3DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D20ED216EAB20C003CC3DE /* CarCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				E8D20EF216EABA22003CC3DE /* Images */,
+				E8D20EDB16EAB20C003CC3DE /* AppDelegate.h */,
+				E8D20EDC16EAB20C003CC3DE /* AppDelegate.m */,
+				E8D20EE416EAB20C003CC3DE /* MainStoryboard.storyboard */,
+				E8D20EFC16EABE34003CC3DE /* Car.h */,
+				E8D20EFD16EABE34003CC3DE /* Car.m */,
+				E8D20EEF16EAB3FD003CC3DE /* CatalogViewController.h */,
+				E8D20EF016EAB3FD003CC3DE /* CatalogViewController.m */,
+				E8D20EF916EABBFF003CC3DE /* DetailsViewController.h */,
+				E8D20EFA16EABBFF003CC3DE /* DetailsViewController.m */,
+				E8D20ED316EAB20C003CC3DE /* Supporting Files */,
+			);
+			path = CarCatalog;
+			sourceTree = "<group>";
+		};
+		E8D20ED316EAB20C003CC3DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D20ED416EAB20C003CC3DE /* CarCatalog-Info.plist */,
+				E8D20ED516EAB20C003CC3DE /* InfoPlist.strings */,
+				E8D20ED816EAB20C003CC3DE /* main.m */,
+				E8D20EDA16EAB20C003CC3DE /* CarCatalog-Prefix.pch */,
+				E8D20EDE16EAB20C003CC3DE /* Default.png */,
+				E8D20EE016EAB20C003CC3DE /* Default@2x.png */,
+				E8D20EE216EAB20C003CC3DE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D20EF216EABA22003CC3DE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E8D20EF316EABA2E003CC3DE /* F430_Scuderia.jpg */,
+				E8D20EF416EABA2E003CC3DE /* F458_Italia.jpg */,
+				E8D20EF516EABA2E003CC3DE /* LaFerrari.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D20EC816EAB20C003CC3DE /* CarCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D20EEC16EAB20C003CC3DE /* Build configuration list for PBXNativeTarget "CarCatalog" */;
+			buildPhases = (
+				E8D20EC516EAB20C003CC3DE /* Sources */,
+				E8D20EC616EAB20C003CC3DE /* Frameworks */,
+				E8D20EC716EAB20C003CC3DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarCatalog;
+			productName = CarCatalog;
+			productReference = E8D20EC916EAB20C003CC3DE /* CarCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D20EC116EAB20C003CC3DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "CursoIOS Co.";
+			};
+			buildConfigurationList = E8D20EC416EAB20C003CC3DE /* Build configuration list for PBXProject "CarCatalog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8D20EC016EAB20C003CC3DE;
+			productRefGroup = E8D20ECA16EAB20C003CC3DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D20EC816EAB20C003CC3DE /* CarCatalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D20EC716EAB20C003CC3DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D20ED716EAB20C003CC3DE /* InfoPlist.strings in Resources */,
+				E8D20EDF16EAB20C003CC3DE /* Default.png in Resources */,
+				E8D20EE116EAB20C003CC3DE /* Default@2x.png in Resources */,
+				E8D20EE316EAB20C003CC3DE /* Default-568h@2x.png in Resources */,
+				E8D20EE616EAB20C003CC3DE /* MainStoryboard.storyboard in Resources */,
+				E8D20EF616EABA2E003CC3DE /* F430_Scuderia.jpg in Resources */,
+				E8D20EF716EABA2E003CC3DE /* F458_Italia.jpg in Resources */,
+				E8D20EF816EABA2E003CC3DE /* LaFerrari.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D20EC516EAB20C003CC3DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D20ED916EAB20C003CC3DE /* main.m in Sources */,
+				E8D20EDD16EAB20C003CC3DE /* AppDelegate.m in Sources */,
+				E8D20EF116EAB3FD003CC3DE /* CatalogViewController.m in Sources */,
+				E8D20EFB16EABBFF003CC3DE /* DetailsViewController.m in Sources */,
+				E8D20EFE16EABE34003CC3DE /* Car.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8D20ED516EAB20C003CC3DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D20ED616EAB20C003CC3DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8D20EE416EAB20C003CC3DE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D20EE516EAB20C003CC3DE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D20EEA16EAB20C003CC3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8D20EEB16EAB20C003CC3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D20EED16EAB20C003CC3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarCatalog/CarCatalog-Prefix.pch";
+				INFOPLIST_FILE = "CarCatalog/CarCatalog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8D20EEE16EAB20C003CC3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarCatalog/CarCatalog-Prefix.pch";
+				INFOPLIST_FILE = "CarCatalog/CarCatalog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D20EC416EAB20C003CC3DE /* Build configuration list for PBXProject "CarCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D20EEA16EAB20C003CC3DE /* Debug */,
+				E8D20EEB16EAB20C003CC3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D20EEC16EAB20C003CC3DE /* Build configuration list for PBXNativeTarget "CarCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D20EED16EAB20C003CC3DE /* Debug */,
+				E8D20EEE16EAB20C003CC3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D20EC116EAB20C003CC3DE /* Project object */;
+}
